@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    gap: 4rem;
+}
+.list a {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--color-primary);
+}

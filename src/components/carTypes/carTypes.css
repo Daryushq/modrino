@@ -1,0 +1,10 @@
+.car-types {
+    margin-top: 15rem;
+}
+
+.car-types__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
