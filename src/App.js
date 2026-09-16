@@ -1,6 +1,7 @@
-import Header from "./components/header/Header";
+import Header from "./components/header/Header"; 
 import Hero from "./components/hero/Hero";
 import CarTypes from "./components/carTypes/CarTypes";
+import Categories from "./components/categories/Categories";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <CarTypes />
+      <Categories />
     </div>
   );
 }
