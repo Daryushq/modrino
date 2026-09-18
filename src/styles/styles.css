@@ -35,6 +35,10 @@ img {
     padding: 0 1.5rem;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .title {
     font-family: "Sansita", sans-serif;
     font-style: italic;

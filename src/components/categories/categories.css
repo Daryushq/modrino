@@ -28,11 +28,11 @@
     padding-bottom: 1rem;
 }
 
-.item {
+.link {
     margin-bottom: 7rem;
 }
 
-.item--active::after {
+.link--active::after {
     position: absolute;
     content: '';
     left: 0;

@@ -7,10 +7,8 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header__wrapper">
-                <div className="header__logo">
-                    <img src={logoIcon} alt="modrino logo" />
-                </div>
-                <Nav />
+                    <img src={logoIcon} alt="modrino logo" className="header__logo logo"/> 
+                    <Nav />
                 </div>
             </div>
         </header>

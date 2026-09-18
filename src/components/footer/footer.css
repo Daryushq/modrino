@@ -1,0 +1,40 @@
+.footer {
+    margin-top: 14rem;
+    padding: 6rem 0;
+    background-color: var(--bg-primary);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.footer__contacts {
+    color: #D3D3D3;
+}
+
+.footer__number {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.footer__info {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}

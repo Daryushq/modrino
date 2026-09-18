@@ -1,0 +1,18 @@
+.services {
+    margin-top: 14rem;
+}
+
+.services__title {
+    margin-bottom: 14rem;
+    font-size: 6.4rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--text-heading);
+}
+
+.services__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}

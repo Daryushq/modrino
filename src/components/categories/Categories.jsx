@@ -15,7 +15,7 @@ function Categories() {
 				<h2 className="categories__title title">Top Categories</h2>
 				<ul className="categories__list">
 					<li>
-						<a href="#!" className="item item--active">
+						<a href="#!" className="link link--active">
 							In stock
 						</a>
 					</li>

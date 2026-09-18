@@ -1,4 +1,4 @@
-import '../carTypes/carTypes.css';
+import './car-types.css';
 import Card from '../card/Card';
 import cabriolet from '../../img/icons/cabriolet-icon.svg';
 import coupe from '../../img/icons/coupe-icon.svg';

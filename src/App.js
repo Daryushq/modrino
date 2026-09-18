@@ -1,7 +1,9 @@
 import Header from "./components/header/Header"; 
 import Hero from "./components/hero/Hero";
-import CarTypes from "./components/carTypes/CarTypes";
+import CarTypes from "./components/car-types/CarTypes";
 import Categories from "./components/categories/Categories";
+import Services from "./components/our-services/Services";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <CarTypes />
       <Categories />
+      <Services />
+      <Footer />
     </div>
   );
 }
