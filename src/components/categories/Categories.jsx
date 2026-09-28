@@ -1,5 +1,4 @@
 import '../categories/categories.css';
-import Button from '../button/Button';
 import CarCard from '../car-card/CarCard';
 import rollsRoyce from '../../img/categories-rolls-royce.png';
 import backgroundImgGarage from '../../img/categories-background.png';
@@ -36,7 +35,9 @@ function Categories() {
 					<div className="categories__head-img">
 						<div className="categories__desc">
 							<h3 className="categories__text title">Rolls Royce Wraith</h3>
-                            <Button text="Learn More"/>
+							<a href="#!" className="btn categories--btn">
+								Learn More
+							</a>
 						</div>
 						<img src={backgroundImgGarage} alt="garage img" />
 						<div className="rolls-royce-img">
@@ -44,10 +45,10 @@ function Categories() {
 						</div>
 					</div>
 					<div className="categories__car-cards">
-						<CarCard carImg={audi} carName="Audi"/>
-						<CarCard carImg={ferrari} carName="Ferrari"/>
-						<CarCard carImg={tesla} carName="Tesla"/>
-						<CarCard carImg={bmw} carName="Bmw"/>
+						<CarCard carImg={audi} carName="Audi" />
+						<CarCard carImg={ferrari} carName="Ferrari" />
+						<CarCard carImg={tesla} carName="Tesla" />
+						<CarCard carImg={bmw} carName="Bmw" />
 					</div>
 				</div>
 			</div>

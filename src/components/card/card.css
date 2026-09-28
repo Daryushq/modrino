@@ -13,3 +13,13 @@
     color: #6F6F6F;
 }
 
+@media (max-width: 450px) {
+    .card {
+        padding: 1rem 2rem;
+        width: 15rem;
+    }
+    .card__desc {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+}

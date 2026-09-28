@@ -3,6 +3,7 @@
     padding: 7rem 3.5rem 4.4rem 5.3rem;
     border-radius: 1rem;
     background-color: var(--circle-color);
+    cursor: pointer;
 }
 
 .services__card-title {
@@ -29,9 +30,50 @@
     max-width: 19.6rem;
     border-bottom: 1px solid var(--color-primary);
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.services__card-btn:hover {
+    opacity: 0.7;
+}
+
+.services__card-btn:hover img {
+    animation: arrowRight 1s;
+}
+
+@keyframes arrowRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .services__card-btn a {
     font-size: 2.4rem;
     color: var(--color-grey);
+}
+
+@media (max-width: 1143px) {
+    .services__card {
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 448px) {
+    .services__card {
+        padding: 5rem 3rem 4rem 4rem;
+        max-width: 35rem;
+    }
+    .services__card-desc {
+        width: 30rem;
+        font-size: 2rem;
+    }
+    .services__card-btn a {
+    font-size: 2.3rem;
+}
 }

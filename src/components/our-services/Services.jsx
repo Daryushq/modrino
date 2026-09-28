@@ -10,8 +10,8 @@ function Services() {
                 <h2 className="services__title title">Our Services</h2>
                 <div className="services__wrapper">
                     <OurServicesCard title="All Brands"/>
-                    <img src={allBrands} alt="all brands" />
-                    <img src={freeSupport} alt="all brands" />
+                    <img src={allBrands} className="services__img" alt="all brands" />
+                    <img src={freeSupport} className="services__img" alt="all brands" />
                     <OurServicesCard title="Free Support"/>
                 </div>
             </div>

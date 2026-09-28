@@ -13,6 +13,28 @@
 .services__wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+@media (max-width: 1175px) {
+    .services__title {
+        margin-bottom: 10rem;
+    }
+}
+
+@media (max-width: 1095px) {
+    .services__img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .services {
+    margin-top: 10rem;
+}
+    .services__title {
+        margin-bottom: 6rem;
+    }
 }

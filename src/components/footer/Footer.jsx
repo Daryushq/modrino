@@ -9,7 +9,7 @@ function Footer() {
                 <div className="footer__wrapper">
                 <div className="footer__nav">
                     <img src={logo} alt="modrino logo" className="footer__logo logo" />
-                    <Nav />
+                    <Nav/>
                 </div>
                 <div className="footer__contacts">
                     <p className="footer__number">(456) 789-12301</p>

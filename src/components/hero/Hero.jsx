@@ -1,5 +1,4 @@
 import heroCar from '../../img/hero-white-car.png';
-import Button from '../button/Button';
 import '../hero/hero.css'
 
 function Hero() {
@@ -15,7 +14,7 @@ function Hero() {
 					<p className="hero__desc">
 						Lorem Ipsum has been the industry's standard dummy text ever since
 					</p>
-                    <Button text="Read More"/>
+                    <a href="#!" className="btn hero--btn">Read More</a>
 				</div>
 				<div className="hero__img">
 					<img src={heroCar} alt="hero car" />
