@@ -41,6 +41,18 @@
     background-color: #0E317D;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0.5;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+.categories__content {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
 .categories__head-img {
     position: relative;
     overflow: hidden;

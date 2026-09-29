@@ -3,7 +3,7 @@ import arrow from '../../img/icons/arrow-icon.svg';
 
 function OurServicesCard({ title }) {
 	return (
-		<div className="services__card">
+		<div className="services__card" id="services">
 			<h3 className="services__card-title title">{title}</h3>
 			<p className="services__card-desc">
 				Lorem Ipsum has been the industry's standard dummy text ever since.

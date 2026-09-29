@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import '../categories/categories.css';
 import CarCard from '../car-card/CarCard';
 import rollsRoyce from '../../img/categories-rolls-royce.png';
@@ -7,31 +8,39 @@ import audi from '../../img/audi.png';
 import tesla from '../../img/tesla.png';
 import bmw from '../../img/bmw.png';
 
+const list = [
+	'In stock',
+	'Used Cars',
+	'Any Modals',
+	'Any Motors',
+	'All Prices',
+];
+
 function Categories() {
+	const [activeTab, setActiveTab] = useState(0);
 	return (
-		<section className="categories">
+		<section className="categories" id="categories">
 			<div className="container">
 				<h2 className="categories__title title">Top Categories</h2>
 				<ul className="categories__list">
-					<li>
-						<a href="#!" className="link link--active">
-							In stock
-						</a>
-					</li>
-					<li>
-						<a href="#!">Used Cars</a>
-					</li>
-					<li>
-						<a href="#!">Any Modals</a>
-					</li>
-					<li>
-						<a href="#!">Any Motors</a>
-					</li>
-					<li>
-						<a href="#!">All Prices</a>
-					</li>
+					{list.map((item, index) => {
+						return (
+							<li key={index}>
+								<a
+									href="#!"
+									className={activeTab === index ? 'link link--active' : 'link'}
+									onClick={(e) => {
+										e.preventDefault();
+										setActiveTab(index);
+									}}
+								>
+									{item}
+								</a>
+							</li>
+						);
+					})}
 				</ul>
-				<div className="categories__content">
+				<div className="categories__content" key={activeTab}>
 					<div className="categories__head-img">
 						<div className="categories__desc">
 							<h3 className="categories__text title">Rolls Royce Wraith</h3>

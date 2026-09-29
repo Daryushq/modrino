@@ -1,17 +1,27 @@
 .car-card {
     max-width: 27.2rem;
     border-radius: 1.5rem;
-    overflow: hidden;
     background-color: #212838;
+    overflow: hidden;
     cursor: pointer;
 }
 
-.car-card__img img {
+.car-card__img {
     margin-top: -2rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.car-card__img img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.car-card:hover img {
+    transform: scale(1.1);
 }
 
 .car-card__body {
-    padding: 0.9rem 1.1rem 0.4rem 2.2rem;
+    padding: 1.5rem 1.1rem 0.4rem 2.2rem;
 }
 
 .car-card__head {

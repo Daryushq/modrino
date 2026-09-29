@@ -4,7 +4,7 @@ import'../header/header.css';
 
 function Header() {
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div className="container">
                 <div className="header__wrapper">
                     <img src={logoIcon} alt="modrino logo" className="header__logo logo"/> 
