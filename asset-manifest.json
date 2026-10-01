@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/modrino/static/css/main.ec7996de.css",
+    "main.css": "/modrino/static/css/main.aad1c940.css",
     "main.js": "/modrino/static/js/main.ed7862b8.js",
     "static/media/all-brands.png": "/modrino/static/media/all-brands.15b4d903b76b97a2663b.png",
     "static/media/free-support.png": "/modrino/static/media/free-support.5a2e0f7c5beee218e8db.png",
@@ -22,11 +22,11 @@
     "index.html": "/modrino/index.html",
     "static/media/close-icon.svg": "/modrino/static/media/close-icon.7c767ef52235892c5fb86a8cdc0b5483.svg",
     "static/media/burger-menu.svg": "/modrino/static/media/burger-menu.cc7f601fb61dc346e30d78f03dd274ab.svg",
-    "main.ec7996de.css.map": "/modrino/static/css/main.ec7996de.css.map",
+    "main.aad1c940.css.map": "/modrino/static/css/main.aad1c940.css.map",
     "main.ed7862b8.js.map": "/modrino/static/js/main.ed7862b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec7996de.css",
+    "static/css/main.aad1c940.css",
     "static/js/main.ed7862b8.js"
   ]
 }
