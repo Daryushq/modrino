@@ -2,6 +2,7 @@
     display: flex;
     gap: 4rem;
 }
+
 .list a {
     position: relative;
     padding-bottom: 0.5rem;

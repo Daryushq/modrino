@@ -1,7 +1,13 @@
 import '../car-card/car-card.css'
-import star from '../../img/icons/star-icon.svg'
+import {ReactComponent as Star} from '../../img/icons/star-icon.svg'
+import { useState } from 'react'
 
 function CarCard({carImg, carName}) {
+        const [favoriteIcon, setFavoriteIcon] = useState(false)
+        
+        const toggleClass = () => {
+            setFavoriteIcon(!favoriteIcon)
+        }
     return (
         <div className="car-card">
             <div className="car-card__img">
@@ -14,7 +20,8 @@ function CarCard({carImg, carName}) {
                 </div>
                 <div className="car-card__favorite">
                     <p className="car-card__desc">Lorem Ipsum</p>
-                    <img src={star} alt="star icon" className="car-card__star-icon" />
+                    <Star width="20" height="19" fill="currentColor" className={favoriteIcon ? " car-card__star-icon--favorite" : "car-card__star-icon"}
+                    onClick={toggleClass}/>
                 </div>
             </div>
         </div>
