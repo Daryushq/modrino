@@ -26,11 +26,10 @@
 }
 
 .header__burger-menu {
-    position: absolute;
+    position: fixed;
 	right: 0;
 	top: 0;
 	z-index: 10;
-	display: none;
 	padding: 2.5rem 1.5rem 2rem 3rem;
 	width: 60%;
 	height: 100vh;
@@ -80,10 +79,8 @@
 	.header__burger-icon {
 		display: block;
 	}
-	.header__burger-menu {
-		display: block;
-	}
 	.header__burger-menu-list {
 		display: block;
 	}
 }
+
