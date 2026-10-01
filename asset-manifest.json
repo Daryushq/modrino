@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Daryushq/modrino/static/css/main.108783eb.css",
+    "main.js": "/Daryushq/modrino/static/js/main.8cf8ce8f.js",
+    "static/media/all-brands.png": "/Daryushq/modrino/static/media/all-brands.15b4d903b76b97a2663b.png",
+    "static/media/free-support.png": "/Daryushq/modrino/static/media/free-support.5a2e0f7c5beee218e8db.png",
+    "static/media/hero-white-car.png": "/Daryushq/modrino/static/media/hero-white-car.9824751b9475b6f50bb6.png",
+    "static/media/categories-rolls-royce.png": "/Daryushq/modrino/static/media/categories-rolls-royce.e354618ec8b8f6758118.png",
+    "static/media/categories-background.png": "/Daryushq/modrino/static/media/categories-background.05b80e106c98683b74ee.png",
+    "static/media/audi.png": "/Daryushq/modrino/static/media/audi.8a3753459b40896f03e7.png",
+    "static/media/bmw.png": "/Daryushq/modrino/static/media/bmw.09a06e31edeb0ab3efd7.png",
+    "static/media/tesla.png": "/Daryushq/modrino/static/media/tesla.c25f24c11a41a06fae31.png",
+    "static/media/ferrari.png": "/Daryushq/modrino/static/media/ferrari.11800a19191278cae11b.png",
+    "static/media/MODRINO-logo.svg": "/Daryushq/modrino/static/media/MODRINO-logo.048e77f21b026b4b9c111e8e6a1f1280.svg",
+    "static/media/sedan-icon.svg": "/Daryushq/modrino/static/media/sedan-icon.29ff55e8683798a8348c941d9f227a12.svg",
+    "static/media/micro-icon.svg": "/Daryushq/modrino/static/media/micro-icon.6704455fd7a294a7cbdffcfe631feaf9.svg",
+    "static/media/suv-icon.svg": "/Daryushq/modrino/static/media/suv-icon.521950d6187d28c79692c75294af7f11.svg",
+    "static/media/cabriolet-icon.svg": "/Daryushq/modrino/static/media/cabriolet-icon.f08254c43ab2e223e5ace2f2bc7914ca.svg",
+    "static/media/coupe-icon.svg": "/Daryushq/modrino/static/media/coupe-icon.2e8156d55cef9bad8dfa00cca862c3a0.svg",
+    "static/media/star-icon.svg": "/Daryushq/modrino/static/media/star-icon.98be6b926fef46283a61b7437b7737ed.svg",
+    "static/media/arrow-icon.svg": "/Daryushq/modrino/static/media/arrow-icon.456026550917055e4b05891773fa12e3.svg",
+    "index.html": "/Daryushq/modrino/index.html",
+    "static/media/close-icon.svg": "/Daryushq/modrino/static/media/close-icon.7c767ef52235892c5fb86a8cdc0b5483.svg",
+    "static/media/burger-menu.svg": "/Daryushq/modrino/static/media/burger-menu.cc7f601fb61dc346e30d78f03dd274ab.svg",
+    "main.108783eb.css.map": "/Daryushq/modrino/static/css/main.108783eb.css.map",
+    "main.8cf8ce8f.js.map": "/Daryushq/modrino/static/js/main.8cf8ce8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108783eb.css",
+    "static/js/main.8cf8ce8f.js"
+  ]
+}
